@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monarch - Mahsulotlar Katalogi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        monarchRed: '#e63946',
+                        monarchLight: '#fff8f8',
+                        monarchBorder: '#ffe0e0'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-100 p-5 text-gray-800">
+    <div class="container max-w-5xl mx-auto bg-white p-6 rounded-xl shadow-md">
+        <div class="header text-center mb-8 pb-4 border-b-2 border-monarchRed">
+            <div class="brand-name">
+                <img src="./ketchup/images(8).png" alt="Monarch Logo" class="mx-auto">
+                <a href="./index1.html">Keyingi rasmlar</a>
+            </div>
+        </div>
+
+        <div class="products-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Сладкий Кетчуп -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/IMG_20250915_234234_528.jpg" alt="Кетчуп Монарх, итальянский сладкий"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    «Кетчуп Монарх, итальянский сладкий»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">300гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">500гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">870гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Кетчуп с чесноком -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/IMG_20250915_234347_777.jpg" alt="Кетчуп Монарх, итальянский острый"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    «Кетчуп Монарх, итальянский острый»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">300гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">500гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">870гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Классический Кетчуп -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/IMG_20250915_234234_634.jpg" alt="Кетчуп Монарх, барбекю"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    «Кетчуп Монарх, барбекю»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">300гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">500гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">870гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Острый Кетчуп -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/images (1).jpg" alt="Кетчуп дархон Острый"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    Кетчуп «дархон Острый»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">300гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">500гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Соус Чили -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/cfu913vg49devoa99dhg.jpg" alt="Соус Монарх, чили"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    «Соус Монарх, чили»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">200гр</span>
+                </div>
+            </div>
+
+            <!-- Кетчуп Острый (500гр) -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/IMG_20250915_234334_130.jpg" alt="Кетчуп Острый"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    Кетчуп «Острый»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">500гр</span>
+                </div>
+            </div>
+
+            <!-- Кетчуп Острый (1000гр) -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/IMG_20250915_234423_817.jpg" alt="Кетчуп Острый"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    Кетчуп «Острый»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Кетчуп Острый (500гр и 1000гр) -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/IMG_20250915_234420_891.jpg" alt="Кетчуп Острый"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    Кетчуп «Острый»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">500гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Кетчуп Острый (500гр и 1000гр) -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/IMG_20250915_234216_083.jpg" alt="Кетчуп Острый"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    Кетчуп «Острый»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">500гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Кетчуп Острый (500гр и 1000гр) -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/cfuaiu7g49devoa99ns0.jpg" alt="Кетчуп Острый"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    Кетчуп «Острый»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">500гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Кетчуп Острый (300гр, 500гр, 1000гр) -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-red-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-monarchRed text-sm border border-dashed border-monarchRed">
+                    <img src="./ketchup/IMG_20250915_234334_866.jpg" alt="Кетчуп Острый"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    Кетчуп «Острый»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">300гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">500гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-monarchRed">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Майонез -->
+            <div
+                class="product-card bg-gradient-to-br from-monarchLight to-white border border-monarchBorder rounded-lg p-5 text-center transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+                <div
+                    class="product-image w-32 h-40 bg-yellow-50 mx-auto mb-4 rounded-lg flex items-center justify-center text-yellow-500 text-sm border border-dashed border-yellow-500">
+                    <img src="./ketchup/IMG_20250915_234234_747.jpg" alt="Майонез Провансаль"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-semibold text-gray-800 mb-4 min-h-[60px] flex items-center justify-center">
+                    Кетчуп «Острый»
+                </div>
+                <div class="product-weights mt-4">
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-yellow-500">300гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-yellow-500">500гр</span>
+                    <span
+                        class="weight block py-2 px-3 my-2 bg-gray-50 rounded-md font-medium border border-gray-200 border-l-4 border-l-yellow-500">1000гр</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-info mt-10 pt-6 border-t border-gray-200 text-center">
+            <div class="phone block text-lg font-medium text-monarchRed mb-2">+998 97 319 57 38</div>
+            <div class="social block text-gray-600 mb-4">@monarch_uzbekistan</div>
+            <div class="delivery text-green-600 font-medium mb-4">Yetkazib berish hizmati bor</div>
+            <div class="address text-gray-600">
+                Qashqadaryo Viloyati<br>
+                Shaxrisabz shahar
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

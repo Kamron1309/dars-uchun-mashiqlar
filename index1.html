@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piknik - Майонез</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        piknikOrange: '#ff6b35',
+                        piknikLight: '#fff8f0',
+                        piknikBorder: '#ffe0d0',
+                        piknikTagline: '#fff3e0'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gradient-to-br from-[#fff9f9] to-[#f8f9fa] p-5 text-gray-800">
+    <div class="container max-w-5xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+        <div class="header text-center mb-9 pb-6 border-b-3 border-piknikOrange">
+            <div class="brand-name">
+                <img src="./ketchup/images(8).png" alt="Piknik Logo" class="mx-auto">
+                <a href="./index.html">Oldingi rasmlar</a>
+            </div>
+            <div
+                class="tagline text-xl italic text-gray-600 mt-4 px-4 py-3 bg-piknikTagline rounded-lg border-l-4 border-l-[#ff9800]">
+                Давно забытый вкус высочайшего качества!
+            </div>
+        </div>
+
+        <div class="products-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 mb-10">
+            <!-- Классический Майонез -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234310_413.jpg" alt="Майонез Классический"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Классический»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-piknikOrange transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-piknikOrange transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-piknikOrange transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сырный Майонез -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/NKL EK3EU111HK,V,5I,.png" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сырный Майонез 2 -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/cg9er2nhj8j9g69a4bc0.jpg" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сливочный Майонез -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234323_062.jpg" alt="Майонез Сливочный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сливочный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#20c997] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#20c997] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#20c997] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сырный Майонез 3 -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234216_610.jpg" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сырный Майонез 4 -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234216_994.jpg" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сливочный Майонез 2 -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234401_722.jpg" alt="Майонез Сливочный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сливочный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#20c997] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#20c997] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#20c997] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сырный Майонез 5 -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234216_625.jpg" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сырный Майонез 6 -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234402_066.jpg" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сырный Майонез 7 -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234401_756.jpg" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сырный Майонез 8 (1000гр) -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/e5aafe59-68af-45bf-b904-dde1c2aec28b_removalai_preview.png" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Лимали соус -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234322_724.jpg" alt="Лимали соус"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Лимали соус
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+
+            <!-- Сырный Майонез 9 -->
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234310_708.jpg" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234322_928.jpg" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+            <div
+                class="product-card bg-gradient-to-br from-white to-piknikLight border-2 border-piknikBorder rounded-xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                <div
+                    class="product-image w-32 h-40 bg-gradient-to-br from-[#ffebdb] to-[#ffd3b6] mx-auto mb-5 rounded-lg flex items-center justify-center text-piknikOrange font-bold border-2 border-dashed border-piknikOrange">
+                    <img src="./mayaniz/IMG_20250915_234402_444.jpg" alt="Майонез Сырный"
+                        class="w-full h-full object-contain rounded">
+                </div>
+                <div
+                    class="product-name text-xl font-bold text-gray-800 mb-5 min-h-[70px] flex items-center justify-center px-3">
+                    Майонез «Сырный»
+                </div>
+                <div class="product-weights mt-5">
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">300гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">500гр</span>
+                    <span
+                        class="weight block py-3 px-4 my-2 bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg font-semibold text-lg border-2 border-gray-200 border-l-5 border-l-[#ffc107] transition-all duration-200 hover:bg-gradient-to-br hover:from-piknikOrange hover:to-[#ff8c42] hover:text-white hover:border-piknikOrange">1000гр</span>
+                </div>
+            </div>
+        </div>
+        <div
+            class="contact-info bg-gradient-to-br from-piknikOrange to-[#ff8c42] text-white p-6 rounded-xl text-center mt-8">
+            <div class="phone text-2xl font-bold my-3">+998 97 319 57 38</div>
+            <div class="social text-xl my-3">@monarch_uzbekistan</div>
+            <div class="social text-xl my-3">Yetkazib berish hizmati bor</div>
+            <div class="address text-lg mt-4 leading-relaxed">
+                Qashqadaryo Viloyati<br>
+                Shaxrisabz shahar
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
